@@ -234,6 +234,10 @@ SOURCE=.\FormatConversion.h
 # End Source File
 # Begin Source File
 
+SOURCE=.\glext.h
+# End Source File
+# Begin Source File
+
 SOURCE=.\Glextensions.h
 # End Source File
 # Begin Source File

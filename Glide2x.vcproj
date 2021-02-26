@@ -163,6 +163,9 @@
 			<File
 				RelativePath=".\TexDB.h">
 			</File>
+            <File
+                RelativePath=".\glext.h">
+            </File>
 			<File
 				RelativePath="sdk2_3dfx.h">
 			</File>

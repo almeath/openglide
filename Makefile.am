@@ -43,6 +43,7 @@ GLutil.cpp \
 gsplash.cpp \
 \
 FormatConversion.h \
+glext.h \
 Glextensions.h \
 GlOgl.h \
 GLRender.h \

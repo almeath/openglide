@@ -14,7 +14,7 @@
 #define __GLEXTENSIONS__
 
 #ifndef GL_GLEXT_VERSION
-#include <GL/glext.h>
+#include <glext.h>
 #endif
 
 void ValidateUserConfig();
