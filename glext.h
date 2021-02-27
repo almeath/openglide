@@ -723,7 +723,7 @@ extern "C" {
 #define GL_SHARPEN_TEXTURE_FUNC_POINTS_SGIS 0x80B0
 #endif
 
-#ifndef GL_EXT_packed_pixels
+#ifndef GL_APPLE_packed_pixels
 #define GL_UNSIGNED_BYTE_3_3_2_EXT        0x8032
 #define GL_UNSIGNED_SHORT_4_4_4_4_EXT     0x8033
 #define GL_UNSIGNED_SHORT_5_5_5_1_EXT     0x8034
@@ -2957,8 +2957,8 @@ typedef void (APIENTRY * PFNGLSHARPENTEXFUNCSGISPROC) (GLenum target, GLsizei n,
 typedef void (APIENTRY * PFNGLGETSHARPENTEXFUNCSGISPROC) (GLenum target, GLfloat *points);
 #endif
 
-#ifndef GL_EXT_packed_pixels
-#define GL_EXT_packed_pixels 1
+#ifndef GL_APPLE_packed_pixels
+#define GL_APPLE_packed_pixels 1
 #endif
 
 #ifndef GL_SGIS_texture_lod

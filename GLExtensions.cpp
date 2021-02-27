@@ -43,7 +43,7 @@ bool dummyExtVariable2 = true;
 
 stExtensionSupport glNecessaryExt[] =
 {
-    { "GL_EXT_packed_pixels",           OGL_EXT_REQUIRED,   &dummyExtVariable,                  &dummyExtVariable2 },
+    { "GL_APPLE_packed_pixels",           OGL_EXT_REQUIRED,   &dummyExtVariable,                  &dummyExtVariable2 },
     { "GL_EXT_abgr",                    OGL_EXT_REQUIRED,   &dummyExtVariable,                  &dummyExtVariable2 },
     { "GL_EXT_bgra",                    OGL_EXT_REQUIRED,   &dummyExtVariable,                  &dummyExtVariable2 },
     { "GL_EXT_secondary_color",         OGL_EXT_DESIRED,    &dummyExtVariable,                  &InternalConfig.EXT_secondary_color },
