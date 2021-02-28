@@ -8,7 +8,7 @@ Upstream site:http://openglide.sourceforge.net/
 
 
 
-To compile on macOS Mojave:
+**To compile on macOS 10.14.6 (Mojave):**
 
 1. Download the source code, unzip and then cd into the source code folder using Terminal.
 2. Run the command: ./bootstrap
@@ -22,3 +22,7 @@ libglide2x.0.dylib
 libglide2x.a
 libglide2x.dylib
 libglide2x.la
+
+**To compile on macOS 11 Big Sur:**
+
+(coming soon)
