@@ -7,6 +7,11 @@ This is a git mirror of the original CVS
 Upstream site:http://openglide.sourceforge.net/
 
 
+**Dependencies:**
+
+Install via Homebrew
+
+brew install sdl
 
 **To compile on macOS 10.14.6 (Mojave):**
 
