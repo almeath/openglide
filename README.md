@@ -34,7 +34,7 @@ __If there is an error generated about a missing "features.h" file, you can down
 
 https://www.dropbox.com/s/ksdw6k4vx6i4ljx/features.h.zip?dl=0
 
-If the build is successful, the resulting libraries are installed to usr/local/lib:
+If the build is successful, the resulting libraries are installed to usr/local/lib/:
 
 libglide.so.2
 libglide2x.0.dylib
