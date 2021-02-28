@@ -30,7 +30,7 @@ brew install SDL1
 3. Run the command: ./configure
 4. Run the command: make install
 
-__If there is an error generated about a missing "features.h" file, you can download the following blank file and place it in your /usr/local/include/ folder. This file is not needed directly by OpenGlide but sometimes the macOS command lines tools cannot locate it.__
+__If there is an error generated about a missing "features.h" file, you can download the following blank file and place it in your /usr/local/include/ folder. This file is not needed directly by OpenGlide but sometimes the macOS command line tools cannot locate it.__
 
 https://www.dropbox.com/s/ksdw6k4vx6i4ljx/features.h.zip?dl=0
 
