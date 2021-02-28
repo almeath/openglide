@@ -23,6 +23,6 @@ libglide2x.a
 libglide2x.dylib
 libglide2x.la
 
-**To compile on macOS 11 Big Sur:**
+**To compile on macOS 11 (Big Sur):**
 
 (coming soon)
