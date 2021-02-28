@@ -9,9 +9,19 @@ Upstream site:http://openglide.sourceforge.net/
 
 **Dependencies:**
 
-Install via Homebrew
+Step 1: Install Xcode command-line tools
 
-brew install sdl
+You need Xcode command-line tools from Apple in order to install Home Brew. You can install Xcode from the App Store or, when you run the Home Brew install script (step 2), it will install the command-line tools for you.
+
+Step 2: Install Home Brew
+
+Home Brew is the package manager for macOS that makes it easy to install the required packages needed for PCem to compile successfully. You can get it from https://brew.sh or run the following command from a Terminal shell:
+
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+
+Step 3: Install the required packages needed by OpenGlide:
+
+brew install SDL1
 
 **To compile on macOS 10.14.6 (Mojave):**
 
