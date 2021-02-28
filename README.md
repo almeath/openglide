@@ -30,7 +30,9 @@ brew install SDL1
 3. Run the command: ./configure
 4. Run the command: make install
 
-The resulting libraries are installed to usr/local/lib:
+If there is an error generated about a missing "features.h" file, you can download the following blank file and place it in your /usr/local/include/ folder. This file is not needed directly by OpenGlide but sometimes the macOS command lines tools cannot locate it.
+
+If the build is successful, the resulting libraries are installed to usr/local/lib:
 
 libglide.so.2
 libglide2x.0.dylib
