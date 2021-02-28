@@ -15,7 +15,7 @@ You need Xcode command-line tools from Apple in order to install Home Brew. You 
 
 Step 2: Install Home Brew
 
-Home Brew is the package manager for macOS that makes it easy to install the required packages needed for PCem to compile successfully. You can get it from https://brew.sh or run the following command from a Terminal shell:
+Home Brew is the package manager for macOS that makes it easy to install the required packages needed for OpenGlide to compile successfully. You can get it from https://brew.sh or run the following command from a Terminal shell:
 
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
