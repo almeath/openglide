@@ -32,6 +32,8 @@ brew install SDL1
 
 _If there is an error generated about a missing "features.h" file, you can download the following blank file and place it in your /usr/local/include/ folder. This file is not needed directly by OpenGlide but sometimes the macOS command lines tools cannot locate it._
 
+https://www.dropbox.com/s/ksdw6k4vx6i4ljx/features.h.zip?dl=0
+
 If the build is successful, the resulting libraries are installed to usr/local/lib:
 
 libglide.so.2
