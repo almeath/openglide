@@ -25,12 +25,20 @@ brew install SDL1
 
 **To compile on macOS 10.14.6 (Mojave):**
 
-1. Download the source code, unzip and then cd into the source code folder using Terminal.
-2. Run the command: ./bootstrap
-3. Run the command: ./configure
-4. Run the command: make install
+1. Download the source code, unzip to your desktop and then cd into the source code folder using Terminal.
+2. Run the command: 
 
-__If there is an error generated about a missing "features.h" file, you can download the following blank file and place it in your /usr/local/include/ folder. This file is not needed directly by OpenGlide but sometimes the macOS command line tools cannot locate it.__
+./bootstrap
+
+3. Run the command: 
+
+./configure
+
+4. Run the command: 
+
+make install
+
+__If there is an error generated about a missing "features.h" file, you can download the following blank file and place it in your /usr/local/include/ folder. This file is not needed directly by OpenGlide but sometimes the macOS command line tools require it but cannot locate it.__
 
 https://www.dropbox.com/s/ksdw6k4vx6i4ljx/features.h.zip?dl=0
 
@@ -42,6 +50,12 @@ libglide2x.a
 libglide2x.dylib
 libglide2x.la
 
+These files can remain in your library folder and will be automatically detected by apps such as DOSBox SVN (with Glide patch) or DOSBox-X.
+
+A good way to test the functionality of your OpenGlide library is to download DOSBox-X and enable glide within the configuration/settings. If the OpenGlide library is detected, DOSBox-X will generate two output files called OpenGLid.ini and OpenGLid.log. (the former providing options to adjust the OpenGlide settings)
+
 **To compile on macOS 11 (Big Sur):**
 
-(coming soon)
+As above, but use the following command for Step 4:
+
+sudo make install
