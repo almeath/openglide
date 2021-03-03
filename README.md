@@ -23,7 +23,7 @@ Step 3: Install the required packages needed by OpenGlide:
 
 brew install SDL1
 
-**To compile on macOS 10.14.6 (Mojave) and 10.15.7 (Catalina):**
+**To compile on macOS 10.14.6 (Mojave):
 
 1. Download the source code, unzip to your desktop and then cd into the source code folder using Terminal.
 2. Run the command: 
@@ -53,9 +53,3 @@ libglide2x.la
 These files can remain in your library folder and will be automatically detected by apps such as DOSBox SVN (with Glide patch) or DOSBox-X.
 
 A good way to test the functionality of your OpenGlide library is to download DOSBox-X and enable glide within the configuration/settings. If the OpenGlide library is detected, DOSBox-X will generate two output files called OpenGLid.ini and OpenGLid.log. (the former providing options to adjust the OpenGlide settings)
-
-**To compile on macOS 11 (Big Sur):**
-
-As above, but use the following command for Step 4:
-
-sudo make install
