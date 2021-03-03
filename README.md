@@ -23,7 +23,7 @@ Step 3: Install the required packages needed by OpenGlide:
 
 brew install SDL1
 
-**To compile on macOS 10.14.6 (Mojave):
+**To compile on macOS 10.14.6 (Mojave):**
 
 1. Download the source code, unzip to your desktop and then cd into the source code folder using Terminal.
 2. Run the command: 
